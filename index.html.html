@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML 5 Doc</title>
+	<style>
+		body,html {padding: 0; margin: 0}
+		header {background-color: #999;
+			color: #fff; padding: 20px 40px; width: 100%; box-sizing: border-box;}
+		header h1 {text-align:center;
+			font-family: "rockwell extra bold";
+			font-size: 40px;
+			text-shadow: 3px 3px 5px #000;
+		}
+
+		article {float: left; color: #000; font-family: sans-serif; font-size: 20px; padding: 10px 20px; width: 70%; 
+			box-sizing: border-box;}
+		article h2 {text-align: center; font-family: "rockwell extra bold"; font-size: 40px;
+			color:#000;}
+		article h3 {text-align: left; font-family: "rockwell extra bold"; font-size: 30px;
+			color:#000;}
+		
+		nav { background-color: #FF4DFF; padding: 15px 0; border-bottom: solid; border-bottom-width: 10px; 
+			border-bottom-color: #999;}
+		nav a {color: #000; font-size: 19px; font-family: helvetica; text-transform: uppercase; 
+			text-decoration: none; padding: 5px 120px;}
+		
+		nav ul {list-style-type:none; font-size: 19px}
+		nav ul li {display: inline-block}
+		nav ul li input[type=submit] {background-color: #000; color: #FFF; border: solid; 
+			border-color: #000; width: 60px;}
+
+		p {font-family: arial, helvetica;}
+
+		aside {float:right; width: 28%; background-color: #FF4DFF; padding-bottom: 310px; 
+			border-left: solid; border-left-width:10px; border-left-color: #999;}
+		aside h4 {text-align: center; font-family: "rockwell extra bold"; font-size: 40px}
+		aside ul {font-size: 19px; font-family: helvetica; color: #00008B}
+		aside ul li {word-wrap: break-word; padding: 5px; box-sizing: border-box;}
+
+		footer {position: relative; font-family: helvetica; font-size: 19px; top: 400; margin-left: 20px;
+			box-sizing: border-box; color: #000; }
+
+	</style>
+
+
+</head>
+
+<body>
+	<header>
+		<h1>Header</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Our Team</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Contact</a></li>
+			<li>
+				<form>
+					<input type='text' name='name' placeholder="Search query">
+					<input type='submit' id='submit' value = "GO!">
+				</form>
+			</li>
+		</ul>
+	</nav>
+
+	<article>
+		<h2> Article heading </h2>
+		<section>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+		</section>
+
+		<h3> subsection </h3>
+		<section>
+			<p>Massa gravida turpis eros taciti per maecenas curae nostra nam, eget nullam sociis ante lacus nascetur aenean ligula scelerisque erat, quis donec consequat fames phasellus suscipit volutpat porttitor. </p>
+			<p>Fames inceptos nostra natoque non sociosqu fermentum, nibh elementum montes nunc iaculis interdum, ut vel donec platea suspendisse. </p>
+		</section>
+
+		<h3> Another subsection </h3>
+		<section>
+			<p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+			<p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
+		</section>
+	</article>
+
+	<aside>
+		<h4> Related </h4>
+		<ul>
+			<li><a href="www.google.com"> Oh I do like to be beside the seaside </a></li>
+			<li><a href="www.yahoo.com">Oh I do like to be beside the sea</a></li>
+			<li><a href="www.bing.com">Although in the North of England</a></li>
+			<li><a href="www.gmail.com">It never stops raining</a></li>
+			<li><a href="canvas.tufts.edu">Oh well...</a></li>
+	</aside>
+
+	<hr style="width:100%; height:10px; background-color: #999; border:none;" />
+
+	<footer>
+		<p> (C) Copyright 2050 by nobody. All rights reserved.</p>
+	</footer>
+</body>
+
+</html>
